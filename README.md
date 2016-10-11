@@ -1,0 +1,2 @@
+# alkfejl
+Alkalmazások fejlésztese - Beadandó
