@@ -33,3 +33,5 @@ Alkalmazások fejlésztese - Beadandó
 *	Meglévő saját tárgyak törlése
 * Saját adatainak módosítása
 * Kijelentkezés
+
+![](diagram1.jpg)
