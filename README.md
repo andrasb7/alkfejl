@@ -158,7 +158,7 @@ Használathoz szükséges
 - böngésző (Chrome, Firefox, stb...)
 - Visual Studio Code
 
-Használat rövid leírása:
+**Használat rövid leírása:**
 1. bejelentkezés/regisztráció
 2. tárgyak hozzáadása
 3. meglévő tárgyak listázása
