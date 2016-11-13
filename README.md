@@ -79,7 +79,7 @@ Alkalmazások fejlésztese - Beadandó
     
 ## Végpontok
 
-- Bejelenzkezéssel kapcsolatos
+# Bejelenzkezéssel kapcsolatos
 
 * GET/: főoldal
 * GET/login: bejelentkező oldal
@@ -88,7 +88,7 @@ Alkalmazások fejlésztese - Beadandó
 * POST/register: regisztrációs adatok felküldése
 * GET/logout: kijelentkező oldal
 
-- Tárgyakkal kapcsolatos
+# Tárgyakkal kapcsolatos
 
 * GET/ownSubjects: tárgyak listázása
 * GET/subjects/create: új tárgy felvétele
@@ -98,7 +98,7 @@ Alkalmazások fejlésztese - Beadandó
 * GET/subjects/:id/edit tárgy módosítása
 * POST/subjects/:id/edit tárgy módosítása, adatok felküldése
 
-- Felhasználókkal kapcsolatos
+# Felhasználókkal kapcsolatos
 
 * GET/users/list: új felhasználó felvételéhez szükséges adatok felküldése
 * GET/users/:id felhasználó adatok
