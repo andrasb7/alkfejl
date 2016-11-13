@@ -140,31 +140,31 @@ Alkalmazások fejlésztese - Beadandó
 
 ##Implementáció
 
- ##Fejlesztő környezet: Visual Studio Code (node.js - adonis.js keretrendszer)
+ **Fejlesztő környezet: Visual Studio Code (node.js - adonis.js keretrendszer)**
   * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd minineptun -> npm start
   * Használat: bármely böngészőben indítható a localhost:3333-on
   
 
 ##Könyvtárszerkezet
  
-  A fejlesztés szempontjából lényeges könyvtárak, fájlok:
+  **A fejlesztés szempontjából lényeges könyvtárak, fájlok:**
   
 ![](files.jpg)
 
 ##Felhasználói dokumentáció
 
-Használathoz szükséges
+**Használathoz szükséges:**
 - tetszőleges operációs rendszer
 - böngésző (Chrome, Firefox, stb...)
 - Visual Studio Code
 
 **Használat rövid leírása:**
-1. bejelentkezés/regisztráció
-2. tárgyak hozzáadása
-3. meglévő tárgyak listázása
-4. trágy szerkesztése
-5. tárgy törlése
-6. felhasználói adatok módosítása
+- bejelentkezés/regisztráció
+- tárgyak hozzáadása
+- meglévő tárgyak listázása
+- trágy szerkesztése
+- tárgy törlése
+- felhasználói adatok módosítása
 
 
 
