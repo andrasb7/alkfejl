@@ -106,20 +106,51 @@ Alkalmazások fejlésztese - Beadandó
 * GET/users/:id/edit felhasználó módosítása
 * POST/users/:id/edit felhasználó módosítása, adatok felküldése
 
+##Megjelenés (bootswatch.com)
+
 **Főoldal bejelentkezés nélkül**
+
 ![](main.jpg)
 
 **Főoldal bejelentkezés után**
+
 ![](list.jpg)
 
 **Tárgy hozzáadása**
+
 ![](create.jpg)
 
 **Tárgy szerkesztése**
+
 ![](edit.jpg)
 
 **Tárgy megtekintése**
+
 ![](show.jpg)
 
 **Keresés**
+
 ![](search.jpg)
+
+##Adatbázisterv - Adatmodell
+
+//db
+
+
+
+##Implementáció
+
+ ###Fejlesztő környezet: Visual Studio Code
+  * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd minineptun -> npm start
+  * Használat: bármely böngészőben indítható a localhost:3333-on
+  
+
+##Könyvtárszerkezet
+ 
+ ###A fejlesztés szempontjából lényeges könyvtárak, fájlok:
+  *minineptun
+   **app
+    ***Http
+     ****Controllers
+      *****SubjectController
+      *****UserController
