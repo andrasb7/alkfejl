@@ -35,3 +35,75 @@ Alkalmazások fejlésztese - Beadandó
 * Kijelentkezés
 
 ![](diagram1.jpg)
+
+**Egy példa az oldal használatára**:
+
+**Meglévő recept szerkesztése:**
+
+1.	A felhasználó az oldalra érkezve, bejelentkezik
+2.	Bejelentkezés után megtekintheti a tárgyakat listázó oldalt, ahol kiválaszthatja a szerkeszteni kívánt tárgyat.
+3.	Rákattint a tárgy nevére
+4.	A megtekintés oldalon kiválaszthatja a „Szerkesztés” gombot
+5.	Szerkesztés oldalon felviszi az új adatokat
+6.	Submit gombra kattintva elmenti a változásokat
+
+//diagram2
+
+## Oldaltérkép
+
+**Publikus:**
+* Főoldal
+* Bejelentkezés
+* Regisztráció
+
+**Bejelentkezett:**
+* Főoldal
+* Új tárgy felvétele
+* Listaoldal (saját tárgyak) 
+  * Tárgy megtekintése
+    * Tárgy szerkesztése 
+    * Tárgy törlése
+* Saját adatok módosítása
+
+**Admin:**
+* Főoldal
+* Új tárgy felvétele
+* Listaoldal (összes tárgy) 
+  * Tárgy megtekintése
+    * Tárgy szerkesztése 
+    * Tárgy törlése
+* Listaoldal (összes felhasználó)
+  * Felhasználó megtekintése
+    * Felhasználó szerkesztése 
+    * Felhasználó törlése
+    
+## Végpontok
+
+- Bejelenzkezéssel kapcsolatos
+
+* GET/: főoldal
+* GET/login: bejelentkező oldal
+* POST/login: bejelentkező adatok felküldése
+* GET/register: regisztrációs oldal
+* POST/register: regisztrációs adatok felküldése
+* GET/logout: kijelentkező oldal
+
+- Tárgyakkal kapcsolatos
+
+* GET/ownSubjects: tárgyak listázása
+* GET/subjects/create: új tárgy felvétele
+* POST/subjects/create: új tárgy felvételéhez szükséges adatok felküldése
+* GET/subjects/:id tárgy adatok
+* GET/subjects/:id/delete tárgy törlése
+* GET/subjects/:id/edit tárgy módosítása
+* POST/subjects/:id/edit tárgy módosítása, adatok felküldése
+
+- Felhasználókkal kapcsolatos
+
+* GET/users/list: új felhasználó felvételéhez szükséges adatok felküldése
+* GET/users/:id felhasználó adatok
+* GET/users/:id/delete felhasználó törlése
+* GET/users/:id/edit felhasználó módosítása
+* POST/users/:id/edit felhasználó módosítása, adatok felküldése
+
+
