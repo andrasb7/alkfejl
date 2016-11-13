@@ -149,9 +149,9 @@ Alkalmazások fejlésztese - Beadandó
  
   A fejlesztés szempontjából lényeges könyvtárak, fájlok:
   
-  * minineptun
-   ** app **
-    ** Http **
-     ** Controllers **
-      ** SubjectController **
-      ** UserController **
+  * **minineptun**
+  * ** app **
+    * Http
+     * Controllers
+      * SubjectController
+      * UserController
