@@ -1,7 +1,7 @@
 # Dokumentáció
 Alkalmazások fejlésztese - Beadandó
 
- ## Tantárgyak felvétele (MiniNeptun)
+# Tantárgyak felvétele (MiniNeptun)
  
 ## Funkcionális követelmények
  - vendégként csak a főoldal tekinthető meg, mely az oldal rövid leírását tartalmazza
@@ -17,7 +17,7 @@ Alkalmazások fejlésztese - Beadandó
  - az oldal funckióinak megfelelő, felhasználóbarát kinézet
  - gyors, biztonságos működés
 
-#####Használatieset-modell, funkcionális követelmények
+##### Használatieset-modell, funkcionális követelmények
 
 **Vendég**: Csak a publikus oldalakat éri el
 
@@ -147,10 +147,10 @@ Alkalmazások fejlésztese - Beadandó
 
 ##Könyvtárszerkezet
  
- ###A fejlesztés szempontjából lényeges könyvtárak, fájlok:
-  *minineptun
-   **app**
-    ***Http**
-     ****Controllers****
-      *****SubjectController****
-      *****UserController****
+ ### A fejlesztés szempontjából lényeges könyvtárak, fájlok:
+  * minineptun
+   ** app **
+    *** Http **
+     **** Controllers ****
+      ***** SubjectController ****
+      ***** UserController ****
