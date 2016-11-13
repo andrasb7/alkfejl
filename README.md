@@ -147,10 +147,11 @@ Alkalmazások fejlésztese - Beadandó
 
 ##Könyvtárszerkezet
  
- ### A fejlesztés szempontjából lényeges könyvtárak, fájlok:
+  A fejlesztés szempontjából lényeges könyvtárak, fájlok:
+  
   * minineptun
    ** app **
-    *** Http **
-     **** Controllers ****
-      ***** SubjectController ****
-      ***** UserController ****
+    ** Http **
+     ** Controllers **
+      ** SubjectController **
+      ** UserController **
