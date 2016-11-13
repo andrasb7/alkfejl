@@ -47,7 +47,7 @@ Alkalmazások fejlésztese - Beadandó
 5.	Szerkesztés oldalon felviszi az új adatokat
 6.	Submit gombra kattintva elmenti a változásokat
 
-//diagram2
+![](diagram2.jpg)
 
 ## Oldaltérkép
 
@@ -106,4 +106,20 @@ Alkalmazások fejlésztese - Beadandó
 * GET/users/:id/edit felhasználó módosítása
 * POST/users/:id/edit felhasználó módosítása, adatok felküldése
 
+**Főoldal bejelentkezés nélkül**
+![](main.jpg)
 
+**Főoldal bejelentkezés után**
+![](list.jpg)
+
+**Tárgy hozzáadása**
+![](create.jpg)
+
+**Tárgy szerkesztése**
+![](edit.jpg)
+
+**Tárgy megtekintése**
+![](show.jpg)
+
+**Keresés**
+![](search.jpg)
