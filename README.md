@@ -134,13 +134,13 @@ Alkalmazások fejlésztese - Beadandó
 
 ##Adatbázisterv - Adatmodell
 
-//db
+![](database.jpg)
 
 
 
 ##Implementáció
 
- ###Fejlesztő környezet: Visual Studio Code
+ ##Fejlesztő környezet: Visual Studio Code (node.js - adonis.js keretrendszer)
   * Futtatás: terminál ablak nyitása (ctrl + ö) -> cd minineptun -> npm start
   * Használat: bármely böngészőben indítható a localhost:3333-on
   
@@ -149,7 +149,22 @@ Alkalmazások fejlésztese - Beadandó
  
   A fejlesztés szempontjából lényeges könyvtárak, fájlok:
   
-  * **minineptun**
-  * ** app/Http/Controllers
-      * SubjectController
-      * UserController
+![](files.jpg)
+
+##Felhasználói dokumentáció
+
+Használathoz szükséges
+- tetszőleges operációs rendszer
+- böngésző (Chrome, Firefox, stb...)
+- Visual Studio Code
+
+Használat rövid leírása:
+1. bejelentkezés/regisztráció
+2. tárgyak hozzáadása
+3. meglévő tárgyak listázása
+4. trágy szerkesztése
+5. tárgy törlése
+6. felhasználói adatok módosítása
+
+
+
