@@ -166,5 +166,13 @@ Alkalmazások fejlésztese - Beadandó
 - tárgy törlése
 - felhasználói adatok módosítása
 
+# Bővítés a 3. beadandóhoz:
+
+ ## 1. funkció - Popup Login
+ - Módosított / új fájlok: login_popup.js, main.njk, login.njk, UserController.js, routes.js
+ - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
+
+
+
 
 
