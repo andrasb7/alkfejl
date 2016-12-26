@@ -183,6 +183,7 @@ Alkalmazások fejlésztese - Beadandó
 **4. funkció - Regisztrációs adatok validálása**
  - Módosított / új fájlok: register.njk
  - Leírás: Regisztráció során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:
+ 
   * Felhasználónév: csak ékezet nélküli betű és szám
   * Email: email formátumnak megfelelő
   * Jelszó: a két jelszónek meg kell egyeznie
@@ -190,6 +191,7 @@ Alkalmazások fejlésztese - Beadandó
 **5. funkció - Tárgy adatok validálása**
  - Módosított / új fájlok: subjectCreate.njk, subjectEdit.njk
  - Leírás: Tárgy felvétele vagy módosítása során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:
+ 
   * Tárgy neve: nem lehet üres
   * Félév: csak szám lehet
   * Kredit: csak szám lehet
