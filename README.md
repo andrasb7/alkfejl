@@ -168,19 +168,19 @@ Alkalmazások fejlésztese - Beadandó
 
 # Bővítés a 3. beadandóhoz:
 
-** 1. funkció - Popup Login **
+**1. funkció - Popup Login**
  - Módosított / új fájlok: login_popup.js, main.njk, login.njk, UserController.js, routes.js
  - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
  
-** 2. funkció - Tárgy törlésének megerősítése **
+**2. funkció - Tárgy törlésének megerősítése**
  - Módosított / új fájlok: delete_subject.js, subjectShow.njk, SubjectController.js, routes.js
  - Leírás: Ha egy adott tárgynál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár
  
- ** 3. funkció - Felhasználó törlésének megerősítése **
+ **3. funkció - Felhasználó törlésének megerősítése**
  - Módosított / új fájlok: delete_user.js, userShow.njk, UserController.js, routes.js
  - Leírás: Ha egy adott felhasználónál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár, ez a funkció csak Godemode-ban érhető el
  
- ** 4. funkció - Regisztrációs adatok validálása **
+ **4. funkció - Regisztrációs adatok validálása**
  - Módosított / új fájlok: register.njk
  - Leírás: Regisztráció során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:
   * Felhasználónév: csak ékezet nélküli betű és szám
