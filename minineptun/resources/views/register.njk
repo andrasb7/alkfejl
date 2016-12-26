@@ -1,5 +1,6 @@
 {% extends "layout" %}
 
+
 {% block content %}
 <h2>Regisztráció</h2>
 
@@ -19,32 +20,42 @@
 {% endif %}
 
 
-<form class="form-horizontal" method="post">
+<form data-toggle="validator" class="form-horizontal" method="post">
 
   {{ csrfField }}
 
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="username" class="col-lg-2 control-label">Felhasználónév</label>
     <div class="col-lg-10">
-      <input type="text" class="form-control" id="username" name="username" placeholder="Felhasználónév" value="{{old('username')}}">
+      <input type="text" class="form-control" id="username" name="username" placeholder="Felhasználónév" value="{{old('username')}}" required
+      pattern="^[_A-z0-9]{1,}$">
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="email" class="col-lg-2 control-label">Email</label>
     <div class="col-lg-10">
-      <input type="text" class="form-control" id="email" name="email" placeholder="Email" value="{{old('email')}}">
+      <input type="text" class="form-control" id="email" name="email" type="email" placeholder="Email" pattern ="\S+@\S+" value="{{old('email')}}"  required>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="password" class="col-lg-2 control-label">Jelszó</label>
     <div class="col-lg-10">
-      <input type="password" class="form-control" id="password" name="password" placeholder="Jelszó" value="">
+      <input type="password" class="form-control" id="password" name="password" placeholder="Jelszó" value=""  required>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="password_confirm" class="col-lg-2 control-label">Jelszó</label>
     <div class="col-lg-10">
-      <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Jelszó" value="">
+      <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Jelszó" value=""  
+      data-match="#password" data-match-error="Nem egyezik meg." required >
+       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
   <div class="form-group">
@@ -56,3 +67,8 @@
 </form>
 
 {% endblock %}
+
+{% block scripts %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+{% endblock %}   

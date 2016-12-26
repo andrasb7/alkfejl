@@ -186,6 +186,25 @@ var search = request.input('search');
   * doSearch(request, response){
     console.log("dosearch");
   }
+
+    * ajaxDelete(request, response) {
+    const id = request.param('id');
+    const subject = yield Subject.find(id);
+    if(subject){
+      if(request.currentUser.id !== subject.user_id && request.currentUser.id !== 1){
+        response.ok({
+           succes:false 
+        })
+        return;
+      }
+      yield subject.delete()
+      
+    response.ok({
+      succes: true
+    })
+  }
+
+  }
 }
 
 module.exports = SubjectController
