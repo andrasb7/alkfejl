@@ -213,10 +213,12 @@ Alkalmazások fejlésztese - Beadandó
 **Selenium IDE telepítése**
 
  >A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra. 
- >--Letöltés: https://www.mozilla.org/hu/firefox/new/
- >--Ha sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t.
- >--Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
- >--Ezután a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a >teszteket.
+ > -- Letöltés: https://www.mozilla.org/hu/firefox/new/
+ > -- Ha sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t.
+ > -- Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
+ 
+ **Selenium IDE használata**
+ > --Telepítés után a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t a Firefox böngészőben. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket, ami a képen jelölve van. A tesztek a test alkönyvtárban találhatóak.
  
  ![](selenium.jpg)
 
