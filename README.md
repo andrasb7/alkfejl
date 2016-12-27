@@ -185,11 +185,11 @@ Alkalmazások fejlésztese - Beadandó
 # Bővítés a 3. beadandóhoz:
 
 **1. funkció - Popup Login**
- - Módosított / új fájlok: login_popup.js, main.njk, login.njk, UserController.js, routes.js
+ - Módosított / új fájlok: *login_popup.js*, *main.njk*, *login.njk*, *UserController.js*, *routes.js*
  - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
  
 **2. funkció - Tárgy törlésének megerősítése**
- - Módosított / új fájlok: delete_subject.js, subjectShow.njk, SubjectController.js, routes.js
+ - Módosított / új fájlok: *delete_subject.js*, *subjectShow.njk*, *SubjectController.js*, *routes.js*
  - Leírás: Ha egy adott tárgynál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár
  
 **3. funkció - Felhasználó törlésének megerősítése**
@@ -197,7 +197,7 @@ Alkalmazások fejlésztese - Beadandó
  - Leírás: Ha egy adott felhasználónál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár, ez a funkció csak Godemode-ban érhető el
  
 **4. funkció - Regisztrációs adatok validálása**
- - Módosított / új fájlok: register.njk
+ - Módosított / új fájlok: *register.njk*
  - Leírás: Regisztráció során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:
  
   * Felhasználónév: csak ékezet nélküli betű és szám
@@ -205,7 +205,7 @@ Alkalmazások fejlésztese - Beadandó
   * Jelszó: a két jelszónek meg kell egyeznie
   
 **5. funkció - Tárgy adatok validálása**
- - Módosított / új fájlok: subjectCreate.njk, subjectEdit.njk
+ - Módosított / új fájlok: *subjectCreate.njk*, *subjectEdit.njk*
  - Leírás: Tárgy felvétele vagy módosítása során ellenőrzi, hogy a felhasználó megfelelő adatokat adott-e meg:
  
   * Tárgy neve: nem lehet üres
@@ -215,6 +215,11 @@ Alkalmazások fejlésztese - Beadandó
 
 **Selenium IDE telepítése**
 
- A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra. Letöltés: https://www.mozilla.org/hu/firefox/new/
- H sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t. Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
+ A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra. 
+ Letöltés: https://www.mozilla.org/hu/firefox/new/
+ Ha sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t.
+ Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
+ Ezután a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket.
+ 
+ ![](selnium.jpg)
 
