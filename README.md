@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # alkfejl
 Alkalmazások fejlésztese - Beadandó
 
@@ -193,7 +193,7 @@ Alkalmazások fejlésztese - Beadandó
  - Leírás: Ha egy adott tárgynál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár
  
 **3. funkció - Felhasználó törlésének megerősítése**
- - Módosított / új fájlok: delete_user.js, userShow.njk, UserController.js, routes.js
+ - Módosított / új fájlok: *delete_user.js*, *userShow.njk*, *UserController.js*, *routes.js*
  - Leírás: Ha egy adott felhasználónál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár, ez a funkció csak Godemode-ban érhető el
  
 **4. funkció - Regisztrációs adatok validálása**
@@ -213,7 +213,8 @@ Alkalmazások fejlésztese - Beadandó
   * Kredit: csak szám lehet
 
 
+**Selenium IDE telepítése**
 
+ A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra. Letöltés: https://www.mozilla.org/hu/firefox/new/
+ H sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t. Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
 
-
->>>>>>> e3ddcd10d99a3b42727b91c701204e9cbd2a34d5
