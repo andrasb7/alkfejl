@@ -1,11 +1,3 @@
-
-# alkfejl
-Alkalmazások fejlésztese - Beadandó
-
- ## Tantárgyak felvétele
- 
-## Funkcionális követelmények
-
 # Dokumentáció
 Alkalmazások fejlésztese - Beadandó
 
@@ -213,7 +205,7 @@ Alkalmazások fejlésztese - Beadandó
 **Selenium IDE telepítése**
 
  >A **Selenium IDE** használatához szükségünk lesz egy *FireFox*ra. 
- > -- Letöltés: https://www.mozilla.org/hu/firefox/new/
+ > \nLetöltés: https://www.mozilla.org/hu/firefox/new/
  > -- Ha sikeresen telepítettük, akkor kiegészítőként letölthetjük hozzá a **Selenium IDE**-t.
  > -- Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
  
