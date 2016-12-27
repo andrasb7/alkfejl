@@ -175,9 +175,9 @@ Alkalmazások fejlésztese - Beadandó
 
 **1. funkció - Popup Login**
  - Módosított / új fájlok: *login_popup.js*, *main.njk*, *login.njk*, *UserController.js*, *routes.js*
- - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet < > jelentkezni (így nem kell a bejelentkező oldalra ugrani)
+ - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet jelentkezni (így nem kell a bejelentkező oldalra ugrani)
  
- > Szekvencia diagram:
+ **Szekvencia diagram:**
  ![](szekv.jpg)
  
 **2. funkció - Tárgy törlésének megerősítése**
