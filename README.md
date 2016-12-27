@@ -177,6 +177,9 @@ Alkalmazások fejlésztese - Beadandó
  - Módosított / új fájlok: *login_popup.js*, *main.njk*, *login.njk*, *UserController.js*, *routes.js*
  - Leírás: A főoldalon, ha nem vagyunk bejelentkezve, akkor egy  hívás történik mely során felugrik egy AJAX-os ablak, ahol be lehet < > jelentkezni (így nem kell a bejelentkező oldalra ugrani)
  
+ > Szekvencia diagram:
+ ![](szekv.jpg)
+ 
 **2. funkció - Tárgy törlésének megerősítése**
  - Módosított / új fájlok: *delete_subject.js*, *subjectShow.njk*, *SubjectController.js*, *routes.js*
  - Leírás: Ha egy adott tárgynál rákattintunk a törlés gombra, akkor nem törli ki azonnal, hanem felugrik egy AJAX-os ablak, amely megerősítést vár
