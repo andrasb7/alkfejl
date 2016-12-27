@@ -5,8 +5,7 @@ Alkalmazások fejlésztese - Beadandó
  ## Tantárgyak felvétele
  
 ## Funkcionális követelmények
- - vendégként csak a főoldal tekinthető meg, mely az oldal rövid leírását tartalmazza
-=======
+
 # Dokumentáció
 Alkalmazások fejlésztese - Beadandó
 
@@ -14,18 +13,16 @@ Alkalmazások fejlésztese - Beadandó
  
 ## Funkcionális követelmények
  - vendégként csak a főoldal tekinthető meg
->>>>>>> e3ddcd10d99a3b42727b91c701204e9cbd2a34d5
  - a vendégnek lehetősége van bejelentkezni
  - bejelentkezés után van lehetőség tárgyakat felvenni
  - bejelentkezés után van lehetőség (már felvett) tárgyakat törölni
  - bejelentkezés után van lehetőség tárgyakat módosítani
  - van lehetőség kijelentkezni
-<<<<<<< HEAD
+
  
 ## Nem funkcionális követelmények
  - az oldal funckióinak megfelelő, felhasználóbarát kinézet
  - gyors, biztonságos működés
-=======
  - van lehetőség saját adataid módosítására (godmode-ban minden felhasználó adatait)
  - van lehetőség godmode-ban listázni a felhasználókat (godemode@minineptun.hu, 12345)
  
@@ -221,5 +218,5 @@ Alkalmazások fejlésztese - Beadandó
  Letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/
  Ezután a Ctrl+Alt+S kombminációval indíthatjuk el az IDE-t. Ha elindítottuk az alkalmazást, akkor a zöld nyíllal futtathatjuk a teszteket.
  
- ![](selnium.jpg)
+ ![](selenium.jpg)
 
